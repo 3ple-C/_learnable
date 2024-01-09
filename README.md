@@ -16,12 +16,14 @@ Three Other alternatives for github include gitlab, AWS ode commit, and bit buck
 
 #####Explain in simple terms git rebase and the command for it
 Rebasing in Git is a process of integrating a series of commits on top of another commit base. It adds or put on top all the commits of a branch and onto to the commits of a new branch. 
+
 -Command:
 `git rebase master branch_x`
 The command above takes the commits of the master branch the head of branch_x
 
 ######Explain in simple terms git cherry-pick and the command for it
 git cherry-pick simply takes a commit from one branch and applies it to another branch like, but not as, rebase.
+
 -Command:
 `git cherry-pick<commit-hash>`
 where commit-hash is a unique identifer for all commits made geneated by git.
